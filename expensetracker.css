@@ -1,0 +1,150 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #F5A623;
+    padding: 20px;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  #about {
+    background-color: #F5A623;
+    color: #fff;
+  }
+  
+  #academics {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  #events {
+    background-color: #F5A623;
+    color: #fff;
+  }
+  
+  #contact {
+    background-color: #fff;
+    color: #000;
+  }
+  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: rgb(241, 239, 239);
+}
+
+form {
+  background: rgb(20, 21, 21);
+  width: 450px;
+  border-radius: 25px;
+  height: 400px;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 50px auto 50px;
+  box-shadow: 5px 5px 5px 5px #ececec;
+}
+
+form h1 { 
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+}
+form h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+label {
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+input,textarea {
+  box-sizing: border-box;
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  resize: none;
+}
+
+textarea {
+  height: 50px;
+}
+
+#button-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  
+  flex-grow: 1;
+  width: 125px;
+   margin: 15px; 
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 35px;
+  cursor: pointer;
+  color: rgb(30, 3, 3);
+}
+
+button#submit {
+  background: #ff0057;
+}
+
+button#reset {
+  background: #707c05;
+}
+h2{
+  text.color: "white"
+}
+  title{
+    text-align: center;
+  }
+  head{
+    text-align: center;
+  }
